@@ -27,7 +27,9 @@ metadata:
 spec:
   selector:
     app.kubernetes.io/name: wil42
+  type: NodePort
   ports:
     - protocol: TCP
       port: 8042
       targetPort: 8888
+      nodePort: 30000
