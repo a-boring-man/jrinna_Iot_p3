@@ -26,11 +26,9 @@ metadata:
   name: wil42-service
 spec:
   selector:
-    app.kubernetes.io/name: wil42
-  # type: NodePort
-  type: LoadBalancer
+    app: wil42
+  type: ClusterIP
   ports:
     - protocol: TCP
       port: 8888
       targetPort: 8888
-      # nodePort: 30000
