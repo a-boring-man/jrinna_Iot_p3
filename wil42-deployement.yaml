@@ -30,5 +30,5 @@ spec:
   type: ClusterIP
   ports:
     - protocol: TCP
-      port: 8043
+      port: 8888
       targetPort: 8888
