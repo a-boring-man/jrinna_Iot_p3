@@ -5,7 +5,6 @@ metadata:
   labels:
     app: wil42
 spec:
-  replicas: 1
   selector:
     matchLabels:
       app: wil42
